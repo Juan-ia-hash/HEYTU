@@ -6,7 +6,7 @@ import Animated, {
   useReducedMotion,
 } from 'react-native-reanimated';
 
-import { colors } from '@/constants/colors';
+import { colors } from '@/constants/Colors';
 import { useAuth } from '@/lib/auth/AuthProvider';
 
 export default function AuthCallback() {

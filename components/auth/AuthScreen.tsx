@@ -10,7 +10,7 @@ import Animated, {
 } from 'react-native-reanimated';
 
 import { useAuth } from '@/lib/auth/AuthProvider';
-import { colors } from '@/constants/colors';
+import { colors } from '@/constants/Colors';
 import { motionPresets } from '@/lib/motion';
 
 export function AuthScreen({ onSuccess }: { onSuccess: () => void }) {

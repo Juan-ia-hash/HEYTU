@@ -43,7 +43,7 @@ import {
 } from '@/lib/auth/profile';
 import { selectionHaptic, successHaptic } from '@/lib/haptics';
 import { recommendMissions, searchMissions } from '@/lib/recommendations';
-import { colors } from '@/constants/colors';
+import { colors } from '@/constants/Colors';
 import { layoutTransition, motionPresets, staggerEntrance } from '@/lib/motion';
 import type {
   Interest,
